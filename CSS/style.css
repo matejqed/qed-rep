@@ -22,7 +22,7 @@
     padding: 20px;
     text-align: center;
     font-size: 30px;
-    color: black;
+    color: whitesmoke;
 }
 
 .nav-menu {
@@ -30,7 +30,21 @@
 }
 
 .hero {
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3) url(images/Hero.jpg);
+    background-image: url("images/Hero.jpg");
     height: 90vh;
-    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    background-position: 50% 50%;
+    background-size: cover;
+    display: flex;
+    align-content: center;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+.center-div {
+    width: 70%;
+    display: flex;
+    align-content: center;
+    vertical-align: middle;
+    justify-content: center;
 }
