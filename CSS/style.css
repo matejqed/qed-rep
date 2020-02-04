@@ -4,43 +4,12 @@ body {
     width: 100%;
 }
 
-.navbar {
-    background-color: #004d55;
-    font-size: 20px;
-}
-
-.navbar-brand {
-    min-height: 55px;
-    padding: 0 15px 5px;
-}
-
-.navbar-default .navbar-nav li a {
-    color: #d5d5d5;
-}
-
-.navbar-default .navbar-nav li a:hover {
-    color: #fff;
-    text-decoration: none;
-}
-
-#home {
-    background: url(/images/hero.jpg) no-repeat center center fixed;
-    display: table;
-    height: 100%;
-    position: relative;
-    width: 100%;
+.hero {
+    background-image: url(/images/hero.jpg);
+    height: 80vh;
     background-size: cover;
-}
-
-.landing-text {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-}
-
-.landing-text h1 {
-    font-size: 60px;
-    font-weight: 700;
+    padding-top: 8vh;
+    padding-bottom: 30vh;
 }
 
 .padding {
