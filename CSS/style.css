@@ -1,50 +1,44 @@
-.nav-outer {
+html,
+body {
+    height: 100%;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    position: fixed;
-    top: 0%;
-    left: 0%;
-    right: 0%;
-    bottom: auto;
-    background: transparent;
 }
 
-.nav-inner {
-    width: 60%;
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
+.navbar {
+    background-color: #004d55;
+    font-size: 20px;
 }
 
-.nav-link {
-    padding: 20px;
-    text-align: center;
-    font-size: 30px;
-    color: whitesmoke;
+.navbar-brand {
+    min-height: 55px;
+    padding: 0 15px 5px;
 }
 
-.nav-menu {
-    display: flex;
+.navbar-default .navbar-nav li a {
+    color: #d5d5d5;
 }
 
-.hero {
-    background-image: url("images/Hero.jpg");
-    height: 90vh;
+.navbar-default .navbar-nav li a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+#home {
+    background: url(images/hero.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
     width: 100%;
-    background-position: 50% 50%;
     background-size: cover;
-    display: flex;
-    align-content: center;
-    vertical-align: middle;
-    justify-content: center;
 }
 
-.center-div {
-    width: 70%;
-    display: flex;
-    align-content: center;
+.landing-text {
+    display: table-cell;
+    text-align: center;
     vertical-align: middle;
-    justify-content: center;
+}
+
+.landing-text h1 {
+    font-size: 60px;
+    font-weight: 700;
 }
