@@ -77,3 +77,21 @@ footer {
     color: #d5d5d5;
     text-decoration: none;
 }
+
+.icon {
+    max-width: 200px;
+}
+
+@media (max-width: 768px) {
+    .landing-text h1 {
+        font-size: 30px;
+    }
+    .fa {
+        font-size: 20px;
+        padding: 10px;
+    }
+    .icon {
+        padding-top: 5%;
+        max-width: 100px;
+    }
+}
