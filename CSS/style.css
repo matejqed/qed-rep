@@ -5,11 +5,9 @@ body {
 }
 
 .hero {
-    background-image: url(/images/hero.jpg);
-    height: 80vh;
+    background: url(/images/hero.jpg) no-repeat center center fixed;
+    height: 70vh;
     background-size: cover;
-    padding-top: 8vh;
-    padding-bottom: 10vh;
 }
 
 .padding {
@@ -21,7 +19,7 @@ body {
 }
 
 #fixed {
-    background: url(/images/hero.jpg) no-repeat center center fixed;
+    background: url(/images/architecture-white.jpg) no-repeat center center fixed;
     display: table;
     height: 60%;
     position: relative;
