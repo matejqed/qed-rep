@@ -5,7 +5,7 @@ body {
 }
 
 .hero {
-    background: url(/images/hero.jpg) no-repeat center center fixed;
+    background: url(../images/heroimage.jpg) no-repeat center center fixed;
     height: 70vh;
     background-size: cover;
 }
@@ -19,7 +19,7 @@ body {
 }
 
 #fixed {
-    background: url(/images/architecture-white.jpg) no-repeat center center fixed;
+    background: url(../images/architecture-white.jpg) no-repeat center center fixed;
     display: table;
     height: 60%;
     position: relative;
